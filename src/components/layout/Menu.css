@@ -1,0 +1,34 @@
+.Menu {
+    display: flex;
+    flex-basis: 250px;
+
+    background-color: #338b1c;
+}
+.Menu nav{
+    flex-grow: 1;
+}
+
+.Menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Menu li {
+    display: flex;
+}
+
+.Menu li a {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    text-decoration: none;
+    color: #f8efdb;
+    font-size: 1.5rem;
+
+}
+
+/* para quando a gente passa o cursor nas opções */
+.Menu li a:hover{
+    background: #00000030;
+}

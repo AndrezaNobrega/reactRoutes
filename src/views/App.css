@@ -1,0 +1,7 @@
+.App{
+    display: flex;
+    height: 100vh;
+}
+
+/* o vh é uma unidade de medida onde ele divide a dela em 
+100 parte e se colocarmos 100 quer dizer que irá 100% da tela por exemplo */
